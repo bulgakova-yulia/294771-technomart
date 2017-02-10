@@ -1,0 +1,55 @@
+body
+{	
+	font-size: 14pt;
+	line-height:16pt;
+	color:#000000;
+	font-weight:normal;
+	font-family: Cuprum, sans-serif;
+}
+.header, .footer
+{
+	color:#ffffff;
+	background-color:#293449;
+}
+.header-info p:nth-child(1)
+{
+	color: red;
+	font-style: italic;
+}
+.header-info p:nth-child(2)
+{
+	color: blue;
+	
+}
+.header-tel
+{
+	color:red;
+}
+.main-header .container
+{
+	background-color:#293449;
+}
+.materials img
+{
+	background-color:#f6b22d;
+}
+.instruments img
+{
+	background-color:#4aafde;
+}
+.technics img
+{
+	background-color:#cc79d1;
+}
+.delivery img
+{
+	background-color:#f6b22d;
+}
+.perforators img
+{
+	background-color:#293449;
+}
+.discounts img
+{
+	background-color:#85d179;
+}
