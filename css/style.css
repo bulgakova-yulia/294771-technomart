@@ -1,55 +1,404 @@
 body
 {	
-	font-size: 14pt;
-	line-height:16pt;
+	font-size: 17px;
 	color:#000000;
 	font-weight:normal;
 	font-family: Cuprum, sans-serif;
+	width: 1200px;
+	margin:0px;
 }
-.header, .footer
+.top-line
+{
+	background-color:#293449;
+	height:42px;
+	color:#ffffff;
+	width: 1200px;
+}
+.top-line li
+{
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.top-line li:first-child {
+	background-color:#ee3643;
+	padding: 7px 55px;
+	box-shadow: 0px 5px 0 0 #b52933;
+	text-transform: uppercase;
+	font-size:24px;
+	margin-left: 130px;
+	margin-right: 20px;
+
+}
+.top-line li:last-child {
+	background-color:#63a63e;
+	padding: 11px 20px;
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 130px;
+}
+.top-line li:nth-child(2) {
+	
+	margin-right: 15px;
+}
+.top-line li:nth-child(4) {
+	margin-left: 200px;
+	margin-right: 15px;
+}
+.top-line li:nth-child(6) {
+	margin-left: 45px;
+	margin-right: 15px;
+}
+.top-line a
 {
 	color:#ffffff;
-	background-color:#293449;
+	text-decoration: none;
 }
-.header-info p:nth-child(1)
+.top-line ul
 {
-	color: red;
+	margin:0;
+	padding:0;
+	list-style:no;
+}
+.header
+{
+	background-color:#f1f5f7;
+	height:320px;
+}
+
+.header-info div
+{
+	display:inline-block;
+	vertical-align: top;
+	margin-top:45px;
+}
+ .desc
+{
+	color: #ee3643;
 	font-style: italic;
+	font-size:16px;
+	width:200px;
+	margin:50px 70px;
+	line-height:23px;
 }
-.header-info p:nth-child(2)
+.address
 {
-	color: blue;
+	color: #32425c;
+	font-size:14px;
+	margin-top:10px;
+	text-align:center;
+}
+.header-tel 
+{
+	color: #e9292a;
+	font-size:21px;
+	text-transform: uppercase;
+	border:3px solid #ffffff;
+	padding-bottom:10px;
+	padding-right: 50px;
+	padding-top:10px;
 	
 }
-.header-tel
+.white-btn span
 {
-	color:red;
+	padding-left:15px;
 }
-.main-header .container
+.header-tel img
 {
-	background-color:#293449;
+	padding-left:15px;
+	padding-right:40px;
 }
-.materials img
+
+.white-btn 
+{
+	background-color:#ffffff;
+	color:#000000;
+	font-size:21px;
+	text-decoration: none;
+	padding: 15px 25px;
+	
+}
+.white-btn:first-child
+{
+	margin-left:70px;
+	margin-right:10px;
+	padding-left:15px;
+}
+
+.main-navigation
+{
+	background-color:#32425c;
+	box-shadow:0px 5px 0 0 #293449;
+	height:55px;
+	width:940px;
+	margin-left:130px;
+	margin-right:130px;
+	margin-bottom: 60px;
+}
+.main-navigation ul
+{
+	margin:0;
+	padding:0;
+	list-style:no;	
+	}
+.main-navigation li 
+{
+	display:inline-block;
+	margin-right: 60px;
+}
+.main-navigation li:first-child 
+{
+	display:inline-block;
+	margin-left: 50px;
+}
+
+.main-navigation a
+{
+	color:#ffffff;
+	text-decoration: none;
+}
+
+.goods-blocks div
+{
+	display:inline-block;
+	margin-top:20px;
+	margin-right:20px;
+}
+.materials 
 {
 	background-color:#f6b22d;
+	width:300px;
+	height:120px;
+	color:#ffffff;
 }
-.instruments img
+.materials a
+{
+	color:#ffffff;
+	text-decoration: none;
+	background-color:#dda028;
+	padding:5px;
+	text-transform: uppercase;
+}
+.instruments
 {
 	background-color:#4aafde;
+	width:300px;
+	height:120px;
+	color:#ffffff;
 }
-.technics img
+.instruments a
+{
+	color:#ffffff;
+	text-decoration: none;
+	background-color:#429dc7;
+	padding:5px;
+	text-transform: uppercase;
+}
+.technics
 {
 	background-color:#cc79d1;
+	width:300px;
+	height:120px;
+	color:#ffffff;
 }
-.delivery img
+.technics a
+{
+	color:#ffffff;
+	text-decoration: none;
+	background-color:#b76dbc;
+	padding:5px;
+	text-transform: uppercase;
+}
+.delivery
 {
 	background-color:#f6b22d;
+	width:300px;
+	height:120px;
+	color:#ffffff;
 }
-.perforators img
+.delivery a
 {
-	background-color:#293449;
+	color:#ffffff;
+	text-decoration: none;
+	background-color:#dda028;
+	padding:5px;
+	text-transform: uppercase;
 }
-.discounts img
+.discounts
 {
 	background-color:#85d179;
+	width:300px;
+	height:120px;
+	color:#ffffff;
+}
+.discounts a
+{
+	color:#ffffff;
+	text-decoration: none;
+	background-color:#77bc6d;
+	padding:5px;
+	text-transform: uppercase;
+}
+.perforators
+{
+	
+	width:620px;
+	height:265px;
+
+}
+.reference-btn 
+{
+	color:#ffffff;
+	text-decoration: none;
+	background-color:#ee3643;
+	padding:5px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.popular span
+{
+	color:#32425c;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin:30px 35px;
+	display:inline-block;
+}
+.popular
+{
+	background-color:#f1f5f7;
+	height:90px;
+	width:940px
+	font-size: 30px;
+
+.popular .reference-btn
+{
+	margin-right:25px
+	margin-bottom:25px;
+	margin-top:25px;
+	padding: 15px 55px;
+}
+.reference-price 
+{
+	color:#ffffff;
+	text-decoration: none;
+	background-color:#ee3643;
+	padding:5px;
+	font-size: 17px;
+	font-family: PTSans Bold, sans-serif;
+	text-transform: uppercase;
+}
+.good-item p
+{
+	font-family: PTSans Bold, sans-serif;
+	font-size: 18pt;
+	text-align: center;
+	color:#000000;
+}
+.good-item img
+{
+	border: 1px solid #e5e5e5;
+	width:220px;
+	height:315px;
+}
+.manufacturer-logo img
+{
+	border: 1px solid #e5e5e5;
+	width:220px;
+	height:145px;
+}
+.old-price 
+{
+	font-family: PTSans Bold, sans-serif;
+	font-size: 17pt;
+	text-align: center;
+	color:#999999;
+	text-decoration: line-through;
+}
+.company-services
+{
+	height:520px;
+	background-color:#f2f6f8;
+}
+.higher-footer
+{
+	height:195px;
+	background-color:#32425c;
+}
+.lower-footer
+{
+	height:105px;
+	background-color:#293449;
+}
+.higher-footer ul
+{
+	margin:0;
+	padding:0;
+	list-style:no;	
+
+}
+.white-menu a
+{
+	color:#ffffff;
+	text-decoration: none;
+	font-size:18pt: 
+
+}
+.white-menu li
+{
+	display:inline-block;
+	vertical-align: middle;
+}
+.white-menu li:first-child {
+	background-color:#ee3643;
+	width:220px;
+	height:42px;
+	box-shadow: 0px 5px 0 0 #b52933;
+	text-align: center;
+	text-transform: uppercase;
+	font-size:24pt;
+}
+.yellow-menu a
+{
+	color:#ffd180;
+	text-decoration: none;
+	font-size: 18pt;
+
+}
+.yellow-menu li
+{
+	display:inline-block;
+	vertical-align: middle;
+}
+.higher-footer p
+{
+	font-size:18pt;
+	color:#ffffff;
+}
+.lower-footer p
+{
+	font-size:16pt;
+	color:#ffffff;
+}
+.footer-connect a, .footer-copyright a
+{
+	color:#ffd180;
+}
+.breadcrumps ul
+{
+	margin:0;
+	padding:0;
+	list-style:no;	
+
+}
+.breadcrumps li
+{
+	display:inline-block;
+
+}
+.breadcrumps a
+{
+	color:#000000;
+	text-decoration: none;
+	font-size:13pt: 
+	text-transform:uppercase;
 }
