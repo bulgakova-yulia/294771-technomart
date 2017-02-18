@@ -4,20 +4,21 @@ body
 	color:#000000;
 	font-weight:normal;
 	font-family: Cuprum Regular, sans-serif;
-	width: 1200px;
+	width: 100%;
 	margin:0px;
+	min-width: 960px;
 }
 .header
 {
-	width: 1200px;
+	width: 100%;
 	background-color:#f1f5f7;
 }
 .container
 {
 	width: 940px;
 	margin:0px 130px;
-	display: float;
 	
+	margin:0px auto;
 }
 .container:after
 {
@@ -523,7 +524,7 @@ h2
 
 .address-footer 
 {
-	width:350px;
+	width:370px;
 	float:left;
 	color:#ffffff;
 	
