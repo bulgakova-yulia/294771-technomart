@@ -99,7 +99,15 @@
 <div class="column1">
 
   <div class="type-name">Цена:</div>
-  <input type="range" min="0" max="30000" class="price-line">
+
+  <div class="price-line">
+  <div class="circle-range1"></div>
+    <!--hr class="green"-->
+    <div class="circle-range2"></div>
+  
+    <hr class="green">
+  </div>
+
   <div class="price-cont"><div class="price-count">0</div><div class="dash">&ndash;</div><div class="price-count">30000</div></div>
   
   <div class="type-name">Производители:</div>
@@ -112,8 +120,8 @@
 
 
   <div class="type-name">Питание:</div>
-  <input type="radio" id="battery" checked> <label for="battery" class="radio-label">Аккумуляторные</label><br>
-  <input type="radio" id="network"> <label for="network" class="radio-label">Сетевые</label><br>
+  <input type="radio" id="battery" name="energy" checked> <label for="battery" class="radio-label">Аккумуляторные</label><br>
+  <input type="radio" id="network" name="energy"> <label for="network" class="radio-label">Сетевые</label><br>
 
 <a href="#" class="show-btn">Показать</a>
 
