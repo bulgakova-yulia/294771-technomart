@@ -1049,6 +1049,7 @@ footer
 	text-transform: uppercase;
 	font-family: "PTSans Bold", sans-serif;
 	font-weight: bold;
+	margin-top: 10px;
 }
 
 .price-line
@@ -1108,7 +1109,9 @@ footer
 	border-radius: 3px;
 	border:1px solid #f7f3ec;
 	color:#000000;
+	text-transform: uppercase;
 	float:left;
+	margin-top: 75px;
 
  }
  input[type="checkbox"],  input[type="radio"]
@@ -1145,6 +1148,29 @@ label
     margin-top: 10px;
     vertical-align: bottom;
 }
+input[type=radio]:checked + .radio-label:before {
+	 content: "";
+    display: inline-block;
+    width: 25px;
+    height: 23px;
+    background-image: url("../img/icon-circle-dot.png");
+    background-repeat: no-repeat;
+    margin-right:12px;
+    margin-top: 10px;
+    vertical-align: bottom;
+}
+input[type=checkbox]:checked + .check-label:before {
+	 content: "";
+    display: inline-block;
+    width: 25px;
+    height: 23px;
+    background-image: url("../img/icon-check-on.png");
+    background-repeat: no-repeat;
+    margin-right:12px;
+    margin-top: 10px;
+    vertical-align: bottom;
+}
+
 
  
 
