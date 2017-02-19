@@ -366,9 +366,7 @@ h2
 {
 	background-color:#f2f6f8;
 	height:525px; 
-	background-image:url("../img/car-big.png");
-	background-repeat:no-repeat;
-	background-position: 600px 100%;
+	
 }
 .services
 {
@@ -807,9 +805,9 @@ footer
 .car-shadow 
 {
 	float:right;
-	width:150px;
-	height:250px;
-	margin-top:145px;
+	width:460px;
+	height:260px;
+	margin-top:-100px;
 }
 .shadow 
 {
@@ -1067,6 +1065,7 @@ footer
 .price-cont
 {
 	display: float;
+	margin-bottom:20px;
 }
 
 .price-count:first-child
@@ -1077,6 +1076,7 @@ footer
 	 padding-top:13px;
 	padding-bottom:13px;
 	text-align: center; 
+		margin-bottom:25px;
 }
 .dash
 {
@@ -1084,6 +1084,7 @@ footer
 	width:20px;
 	text-align: center;
 	padding:10px 10px;
+	margin-bottom:25px;
 	
 }
 .price-count:last-child
@@ -1094,6 +1095,7 @@ footer
 	padding-top:10px;
 	padding-bottom:13px; 
 	text-align: center;
+	margin-bottom:25px;
 }
 
  .show-btn
@@ -1106,5 +1108,43 @@ footer
 	border-radius: 3px;
 	border:1px solid #f7f3ec;
 	color:#000000;
+	float:left;
+
  }
+ input[type="checkbox"],  input[type="radio"]
+{
+	display:none;
+}
+label
+{
+	font-size:15px;
+	line-height: 23px;
+	text-transform: uppercase;
+	font-family: "PTSans Regular", sans-serif;
+	
+}
+.check-label:before {
+    content: "";
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background-image: url("../img/icon-check-off.png");
+    background-repeat: no-repeat;
+    margin-right:12px;
+    margin-top: 10px;
+    vertical-align: bottom;
+}
+.radio-label:before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 23px;
+    background-image: url("../img/icon-circle.png");
+    background-repeat: no-repeat;
+    margin-right:12px;
+    margin-top: 10px;
+    vertical-align: bottom;
+}
+
+ 
 
