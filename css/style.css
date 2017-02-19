@@ -15,9 +15,7 @@ body
 }
 .container
 {
-	width: 940px;
-	margin:0px 130px;
-	
+	width: 940px;	
 	margin:0px auto;
 }
 .container:after
@@ -31,6 +29,11 @@ body
 	background-color:#293449;
 	color:#ffffff;
 }
+.top-line .container:hover
+{
+	background-color:#212a3a;
+	color:#ffffff;
+}
 .logo {
 	background-color:#ee3643;
 	width:220px;
@@ -41,13 +44,43 @@ body
 	padding:12px 0px;
 	float:left;
 }
-.search
+.logo:hover {
+	background-color:#ca2c37;
+	width:220px;
+	box-shadow: 0px 5px 0 0 #9a212a;
+	text-transform: uppercase;
+	font-size:24px;
+	text-align: center;
+	padding:12px 0px;
+	float:left;
+}
+.logo:active { 
+	background-color:#ba2732;
+	width:220px;
+	box-shadow: 0px 5px 0 0 #8e1e26;
+	text-transform: uppercase;
+	font-size:24px;
+	text-align: center;
+	padding:12px 0px;
+	float:left;
+}
+/*.search
 {
 	margin:15px 18px;
 	width:88px;
 	float:left;
 	vertical-align:baseline;
 
+}*/
+.search input
+{
+	padding:10px 0px 10px 18px;
+	background-color: #293449;
+	color: #ffffff;
+	width:80px;
+	float:left;
+	vertical-align:baseline;
+	border:none;
 }
 .search img
 {
@@ -55,6 +88,20 @@ body
 }
 .order {
 	background-color:#63a63e;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+	width: 150px;
+	float:right;
+}
+.order:hover {
+	background-color:#5fbb2d;
+	
+	text-align: center;
+	width: 150px;
+	float:right;
+}
+.order:active {
+	background-color:#518534;
 	padding: 15px 0px 18px 0px;
 	text-align: center;
 	width: 150px;
@@ -69,15 +116,15 @@ body
 	float:right;
 	width:125px;
 	margin-right: 45px;
-	margin-top:15px;
-	margin-bottom:15px;
+vertical-align: top;
+	
 }
 .cart  {
 	float:right;
 	width:125px;
-	margin-right: 30px;
-	margin-top:15px;
-	margin-bottom:15px;
+	margin-right: 20px;
+	
+	
 	
 }
 .cart-red
@@ -88,7 +135,7 @@ body
 	background-color: #ee3643;
 }
 
-.cart, .cart-red img
+.cart img, .cart-red img
 {
 	padding-right:16px;
 }
@@ -309,11 +356,31 @@ body
 	width:620px;
 	height:265px;
 	background:
-	url("../img/icon-left.png") 25px 115px no-repeat,
-	url("../img/icon-right.png") 580px 115px no-repeat,
+	/*url("../img/icon-left.png") 25px 115px no-repeat,
+	url("../img/icon-right.png") 580px 115px no-repeat,*/
 	url("../img/man.jpg") 0 0 no-repeat;
 	margin-top:20px;
 	position: relative;
+}
+/*.perforators + input[type="radio"]:checked
+{
+	margin-right:20px;
+	display:inline-block;
+	vertical-align:top;
+	width:620px;
+	height:265px;
+	background:
+	url("../img/icon-left.png") 25px 115px no-repeat,
+	url("../img/icon-right.png") 580px 115px no-repeat,
+	url("../img/man2.jpg") 0 0 no-repeat;
+	margin-top:20px;
+	position: relative;
+}*/
+.radio-back
+{
+	margin:0px;
+	padding-left:126px;
+	padding-top:113px;
 }
 .perforators-h1
 {
